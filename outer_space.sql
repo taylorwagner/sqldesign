@@ -37,7 +37,7 @@ CREATE TABLE planets
   name TEXT NOT NULL,
   orbital_period_in_years FLOAT NOT NULL,
   orbits_around INT REFERENCES center_stars,
-  galaxy INT REFERENCES galaxies,
+  galaxy INT REFERENCES galaxies
 );
 
 INSERT INTO planets
