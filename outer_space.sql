@@ -21,7 +21,7 @@ CREATE TABLE center_stars (
 );
 
 INSERT INTO center_stars (name)
-VALUES ('The Sun', 'Proxima Centauri', 'Gliese 876');
+VALUES ('The Sun'), ('Proxima Centauri'), ('Gliese 876');
 
 CREATE TABLE moons (
   id SERIAL PRIMARY KEY,
@@ -29,7 +29,7 @@ CREATE TABLE moons (
 );
 
 INSERT INTO moons (name)
-VALUES ('The Moon', 'Phobos', 'Deimos', 'Naiad', 'Thalassa', 'Despina', 'Galatea', 'Larissa', 'S/2004 N 1', 'Proteus', 'Triton', 'Nereid', 'Halimede', 'Sao', 'Laomedeia', 'Psamathe', 'Neso')
+VALUES ('The Moon'), ('Phobos'), ('Deimos'), ('Naiad'), ('Thalassa'), ('Despina'), ('Galatea'), ('Larissa'), ('S/2004 N 1'), ('Proteus'), ('Triton'), ('Nereid'), ('Halimede'), ('Sao'), ('Laomedeia'), ('Psamathe'), ('Neso');
 
 CREATE TABLE planets
 (
