@@ -7,21 +7,21 @@ CREATE DATABASE outer_space;
 
 \c outer_space
 
-CREATE TABLE galaxies {
+CREATE TABLE galaxies (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL
-}
+);
 
 INSERT INTO galaxies (name) 
-VALUES ('Milky Way')
+VALUES ('Milky Way');
 
-CREATE TABLE center_stars {
+CREATE TABLE center_stars (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL
-}
+);
 
 INSERT INTO center_stars (name)
-VALUES ('The Sun', 'Proxima Centauri', 'Gliese 876')
+VALUES ('The Sun', 'Proxima Centauri', 'Gliese 876');
 
 CREATE TABLE planets
 (
